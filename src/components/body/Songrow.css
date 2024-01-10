@@ -1,0 +1,45 @@
+.srow {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .srow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .sorder {
+    margin-right: 20px;
+    font-size: 14px;
+    width: 10px;
+    text-align: center;
+  }
+  
+  .salbum {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    margin-right: 20px;
+  }
+  
+  .sinfo {
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .sduration {
+    font-size: 14px;
+    margin-left: auto;
+  }
+  

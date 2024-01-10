@@ -1,0 +1,41 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px; /* Added margin for spacing on all sides of the header */
+  }
+  
+  .HL {
+    flex: 0.5;
+    min-width: 200px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .HL > input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: black;
+    background: white;
+  }
+  
+  .HR {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .HR > h4 {
+    margin-left: 8px;
+    color: white;
+    font-size: 14px;
+  }
+  

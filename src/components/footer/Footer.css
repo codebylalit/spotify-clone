@@ -1,0 +1,66 @@
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0c0c0c;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .footer_L {
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    color: white;
+    max-width: 200px; /* Adjusted max-width */
+  }
+  
+  .footer_C {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+  }
+  
+  .footer_R {
+    flex: 0.2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .Falbumlogo {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    object-fit: contain;
+  }
+  
+  .FG {
+    color: #1ed15e;
+  }
+  
+  /* Adjusted the styling for the volume slider */
+  .footer_R * .MuiSlider-root {
+    color: #1ed15e;
+    max-width: 90px; /* Added max-width for the volume slider */
+  }
+  
+  .Fsonginfo > h4 {
+    margin-bottom: 5px;
+  }
+  
+  .Fsonginfo > p {
+    font-size: 12px;
+  }
+  
+  .FG:hover,
+  .FI:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+  }
+  
